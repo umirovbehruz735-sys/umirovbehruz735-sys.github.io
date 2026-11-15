@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An IT student portfolio from Inha University in Tashkent, featuring coursework and a hands-on networking lab.">
+  <title>Student Portfolio | Inha University in Tashkent</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">
+        <span class="wordmark-icon" aria-hidden="true">↗</span>
+        <span>Student portfolio</span>
+      </a>
+      <nav class="header-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden>
+        <span class="theme-icon" aria-hidden="true"></span>
+        <span>Dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-kicker">Inha University in Tashkent</p>
+        <h1 id="hero-title">Hi, I’m an <em>IT student.</em></h1>
+        <p class="hero-intro">I’m learning how computers connect and what happens between typing an address and seeing a page.</p>
+        <a class="primary-link" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
+      </div>
+
+      <figure class="network" aria-labelledby="network-caption">
+        <div class="network-heading">
+          <span class="network-signal" aria-hidden="true"></span>
+          <figcaption id="network-caption">The path of a web request</figcaption>
+        </div>
+        <ol class="network-path">
+          <li>
+            <span class="network-symbol symbol-device" aria-hidden="true"></span>
+            <div><strong>Browser</strong><span>Sends the request</span></div>
+          </li>
+          <li>
+            <span class="network-symbol symbol-router" aria-hidden="true"></span>
+            <div><strong>Router</strong><span>Forwards the packets</span></div>
+          </li>
+          <li>
+            <span class="network-symbol symbol-server" aria-hidden="true"></span>
+            <div><strong>Web server</strong><span>Returns the page</span></div>
+          </li>
+        </ol>
+      </figure>
+    </section>
+
+    <div class="wrap">
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About me</h2>
+        <p>I’m studying information technology at Inha University in Tashkent. In my coursework, I explore how everyday tools like browsers and Wi-Fi rely on the same networking concepts I can observe from a terminal.</p>
+      </section>
+
+      <section class="section course-section" id="courses" aria-labelledby="courses-title">
+        <h2 id="courses-title">My courses</h2>
+        <div class="course-card">
+          <div class="course-mark" aria-hidden="true">&gt;_</div>
+          <div>
+            <h3>Introduction to IT</h3>
+            <p>From IP addressing and routing to DNS, encrypted traffic, and publishing a website.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section project-section" id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">Networking lab</p>
+            <h3>Network detective</h3>
+            <p>Read packet headers in Wireshark, follow routes with traceroute, and compare what a packet capture reveals about HTTP and HTTPS.</p>
+          </article>
+          <article class="project-card">
+            <p class="project-type">Web development</p>
+            <h3>This homepage</h3>
+            <p>A responsive portfolio built with HTML, CSS, and JavaScript. It follows your system appearance and remembers a theme you select.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>For questions about my coursework or the networking lab, reach me through the Introduction to IT course channel.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>Student portfolio · Inha University in Tashkent</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
